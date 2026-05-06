@@ -32,7 +32,7 @@ function App() {
         </div>
       </div>
 
-      {/* Header */}
+      {/* Header - Estilo Home Depot */}
       <header className="sticky top-0 left-0 right-0 z-50 bg-white shadow-lg border-b-4 border-yellow-500">
         <div className="max-w-[1920px] mx-auto px-6 lg:px-12 py-5">
           <div className="flex justify-between items-center gap-8">
@@ -44,6 +44,7 @@ function App() {
               </div>
             </div>
 
+            {/* Buscador GRANDE */}
             <div className="hidden lg:flex flex-1 max-w-xl">
               <input type="text" placeholder="Buscar cemento, pintura, herramientas..." className="w-full bg-gray-100 border-2 border-gray-200 rounded-l-xl px-6 py-3 outline-none focus:border-yellow-500 transition" />
               <button className="bg-yellow-500 hover:bg-yellow-600 text-black px-6 rounded-r-xl font-bold transition">🔍</button>
@@ -66,8 +67,8 @@ function App() {
       </header>
 
       <main>
-        {/* Hero */}
-        <section className="relative min-h-[70vh] lg:min-h-[80vh] flex items-center bg-gradient-to-br from-yellow-500 via-orange-500 to-yellow-600">
+        {/* Hero - Estilo Home Depot */}
+        <section className="relative min-h-[60vh] lg:min-h-[70vh] flex items-center bg-gradient-to-br from-yellow-500 via-orange-500 to-yellow-600">
           <div className="absolute inset-0">
             <img src="https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=1600&q=80" alt="" className="w-full h-full object-cover opacity-20" />
           </div>
@@ -92,7 +93,7 @@ function App() {
           </div>
         </section>
 
-        {/* Categorías */}
+        {/* Categorías - Grid */}
         <section id="categorias" className="py-24 bg-white">
           <div className="max-w-[1920px] mx-auto px-6 lg:px-12">
             <div className="text-center mb-16">
@@ -142,7 +143,7 @@ function App() {
           </div>
         </section>
 
-        {/* Beneficios */}
+        {/* Beneficios B2B */}
         <section className="py-20 bg-gray-900 text-white">
           <div className="max-w-[1920px] mx-auto px-6 lg:px-12">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-12">
