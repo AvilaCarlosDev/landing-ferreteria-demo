@@ -3,28 +3,28 @@ import { useState } from 'react'
 function App() {
   // Imágenes reales de Unsplash - Herramientas y ferretería
   const images = {
-    hero: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=1200&q=80',
-    hero2: 'https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=800&q=80',
-    hero3: 'https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=800&q=80',
-    hero4: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?w=800&q=80',
+    hero: 'https://source.unsplash.com/random/600x400/?tools,hardware',
+    hero2: 'https://source.unsplash.com/random/600x400/?tools,hardware',
+    hero3: 'https://source.unsplash.com/random/600x400/?tools,hardware',
+    hero4: 'https://source.unsplash.com/random/600x400/?tools,hardware',
     categorias: [
-      'https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=500&q=80', // Herramientas manuales
-      'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=500&q=80', // Eléctrico
-      'https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=500&q=80', // Fontanería
-      'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=500&q=80', // Pinturas
-      'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=500&q=80', // Seguridad
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=500&q=80', // Construcción
+      'https://source.unsplash.com/random/600x400/?tools,hardware', // Herramientas manuales
+      'https://source.unsplash.com/random/600x400/?tools,hardware', // Eléctrico
+      'https://source.unsplash.com/random/600x400/?tools,hardware', // Fontanería
+      'https://source.unsplash.com/random/600x400/?tools,hardware', // Pinturas
+      'https://source.unsplash.com/random/600x400/?tools,hardware', // Seguridad
+      'https://source.unsplash.com/random/600x400/?tools,hardware', // Construcción
     ],
     productos: [
-      { img: 'https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=400&q=80', name: 'Taladro Percutor', price: '$45', oldPrice: '$55' },
-      { img: 'https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=400&q=80', name: 'Set 50 Piezas', price: '$35', oldPrice: '$45' },
-      { img: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?w=400&q=80', name: 'Sierra Circular', price: '$65', oldPrice: '$80' },
-      { img: 'https://images.unsplash.com/photo-1586864387967-d02ef55186d6?w=400&q=80', name: 'Compresor', price: '$120', oldPrice: '$150' },
+      { img: 'https://source.unsplash.com/random/600x400/?tools,hardware', name: 'Taladro Percutor', price: '$45', oldPrice: '$55' },
+      { img: 'https://source.unsplash.com/random/600x400/?tools,hardware', name: 'Set 50 Piezas', price: '$35', oldPrice: '$45' },
+      { img: 'https://source.unsplash.com/random/600x400/?tools,hardware', name: 'Sierra Circular', price: '$65', oldPrice: '$80' },
+      { img: 'https://source.unsplash.com/random/600x400/?tools,hardware', name: 'Compresor', price: '$120', oldPrice: '$150' },
     ],
     proyectos: [
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=80',
-      'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&q=80',
-      'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80',
+      'https://source.unsplash.com/random/600x400/?tools,hardware',
+      'https://source.unsplash.com/random/600x400/?tools,hardware',
+      'https://source.unsplash.com/random/600x400/?tools,hardware',
     ],
   }
 
