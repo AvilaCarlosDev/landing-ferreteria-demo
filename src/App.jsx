@@ -29,7 +29,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-[80vh] lg:min-h-[90vh] bg-white">
       {/* Header */}
       <header className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 text-white sticky top-0 z-50 shadow-2xl">
         <div className="bg-blue-950 py-2 text-xs">
@@ -108,7 +108,7 @@ function App() {
                 🔥 OFERTA ESPECIAL -40%
               </div>
 
-              <h2 className="text-6xl lg:text-7xl xl:text-8xl font-black text-white mb-6 leading-none">
+              <h2 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-white mb-6 leading-none">
                 HERRAMIENTAS<br/>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500">PROFESIONALES</span>
               </h2>
