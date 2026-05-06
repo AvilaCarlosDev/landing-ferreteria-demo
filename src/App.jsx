@@ -3,28 +3,28 @@ import { useState } from 'react'
 function App() {
   // Imágenes reales de Unsplash - Herramientas y ferretería
   const images = {
-    hero: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80',
-    hero2: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80',
-    hero3: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80',
-    hero4: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80',
+    hero: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800',
+    hero2: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800',
+    hero3: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800',
+    hero4: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800',
     categorias: [
-      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80', // Herramientas manuales
-      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80', // Eléctrico
-      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80', // Fontanería
-      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80', // Pinturas
-      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80', // Seguridad
-      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80', // Construcción
+      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800', // Herramientas manuales
+      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800', // Eléctrico
+      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800', // Fontanería
+      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800', // Pinturas
+      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800', // Seguridad
+      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800', // Construcción
     ],
     productos: [
-      { img: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80', name: 'Taladro Percutor', price: '$45', oldPrice: '$55' },
-      { img: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80', name: 'Set 50 Piezas', price: '$35', oldPrice: '$45' },
-      { img: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80', name: 'Sierra Circular', price: '$65', oldPrice: '$80' },
-      { img: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80', name: 'Compresor', price: '$120', oldPrice: '$150' },
+      { img: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800', name: 'Taladro Percutor', price: '$45', oldPrice: '$55' },
+      { img: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800', name: 'Set 50 Piezas', price: '$35', oldPrice: '$45' },
+      { img: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800', name: 'Sierra Circular', price: '$65', oldPrice: '$80' },
+      { img: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800', name: 'Compresor', price: '$120', oldPrice: '$150' },
     ],
     proyectos: [
-      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80',
-      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80',
-      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800https://source.unsplash.com/random/600x400/?tools,hardwareq=80',
+      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800',
+      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800',
+      'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=800',
     ],
   }
 
