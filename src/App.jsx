@@ -9,7 +9,7 @@ const products = [
     name: 'Cemento UltraMix 42.5kg',
     category: 'Construcción',
     price: '$12.50',
-    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&q=85&fit=crop',
+    image: '/img/foto-1503387762592d.jpg',
     stock: '280 sacos',
     badge: 'Obra',
   },
@@ -17,7 +17,7 @@ const products = [
     name: 'Taladro Percutor Pro 750W',
     category: 'Herramientas',
     price: '$68',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?w=900&q=85&fit=crop',
+    image: '/img/foto-1504148455328c.jpg',
     stock: '18 unidades',
     badge: 'Top',
   },
@@ -25,21 +25,21 @@ const products = [
     name: 'Cable THW #12 por metro',
     category: 'Electricidad',
     price: '$1.20',
-    image: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=900&q=85&fit=crop',
+    image: '/img/foto-1621905252507b.jpg',
     stock: '1.500 m',
   },
   {
     name: 'Tubería PVC presión 1/2”',
     category: 'Plomería',
     price: '$3.50',
-    image: 'https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=900&q=85&fit=crop',
+    image: '/img/foto-1607472586893e.jpg',
     stock: '320 tubos',
   },
   {
     name: 'Pintura Acrílica Galón Pro',
     category: 'Pintura',
     price: '$18',
-    image: 'https://images.unsplash.com/photo-1589939705384-5f4f84a22ea9?w=900&q=85&fit=crop',
+    image: '/img/paint.jpg',
     stock: '74 galones',
     badge: 'Oferta',
   },
@@ -47,16 +47,16 @@ const products = [
     name: 'Kit Seguridad Obra Básico',
     category: 'Seguridad',
     price: '$24',
-    image: 'https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=900&q=85&fit=crop',
+    image: '/img/safety-kit.jpg',
     stock: '42 kits',
   },
 ]
 
 const departments = [
-  ['Construcción', 'Cemento, arena, cabillas, bloques y químicos para obra.', 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&q=85&fit=crop'],
-  ['Electricidad', 'Cables, breakers, canaletas, luminarias y tableros.', 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=900&q=85&fit=crop'],
-  ['Plomería', 'PVC, grifería, conexiones, bombas y tanques.', 'https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=900&q=85&fit=crop'],
-  ['Herramientas', 'Manual, eléctrica, medición, corte y accesorios.', 'https://images.unsplash.com/photo-1530124564045-248d32178a2d?w=900&q=85&fit=crop'],
+  ['Construcción', 'Cemento, arena, cabillas, bloques y químicos para obra.', '/img/foto-15043076512543.jpg'],
+  ['Electricidad', 'Cables, breakers, canaletas, luminarias y tableros.', '/img/foto-1621905252507b.jpg'],
+  ['Plomería', 'PVC, grifería, conexiones, bombas y tanques.', '/img/foto-1607472586893e.jpg'],
+  ['Herramientas', 'Manual, eléctrica, medición, corte y accesorios.', '/img/tools.jpg'],
 ]
 
 const projectPacks = [
@@ -137,7 +137,7 @@ function App() {
       <main>
         <section id="inicio" className="relative isolate overflow-hidden bg-[#141613] text-white">
           <img
-            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1900&q=85&fit=crop"
+            src="/img/foto-15043076512543.jpg"
             alt="Construcción e industria"
             className="absolute inset-0 -z-20 h-full w-full object-cover opacity-30"
           />
@@ -194,7 +194,7 @@ function App() {
                 </div>
               </div>
               <div className="overflow-hidden border-8 border-white bg-white shadow-2xl shadow-black/30">
-                <img src="https://images.unsplash.com/photo-1581244277943-fe4a9c777185?w=1000&q=90&fit=crop" alt="Equipo de seguridad industrial" className="h-[520px] w-full object-cover" />
+                <img src="/img/safety-kit.jpg" alt="Equipo de seguridad industrial" className="h-[520px] w-full object-cover" />
               </div>
             </div>
           </div>
