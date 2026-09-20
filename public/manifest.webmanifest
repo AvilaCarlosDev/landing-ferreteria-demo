@@ -1,0 +1,22 @@
+{
+  "name": "ObraMax Supply",
+  "short_name": "ObraMax",
+  "description": "Ferretería industrial demo con catálogo técnico, materiales de construcción, herramientas, paquetes de obra y cotización por WhatsApp.",
+  "lang": "es",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#141613",
+  "theme_color": "#141613",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
